@@ -14,14 +14,30 @@
   <form id = "movieForm">
     <div class="container">
       <select id="movieList" class = "form-control">
-        <option id ="SpaceOdd" value="Space Oddity">Space Oddity</option>
-        <option id ="KillKlowOuterSp" value="Killer Klowns from Outer Space">Killer Klowns from Outter Space</option>
-        <option value="TheHills">The Hills Have Eyes</option>
-        <option id ="DesLiving" value="Desperate Living">Desperate Living</option>
+        <option value="Space Oddity">Space Oddity</option>
+        <option value="Killer Klowns from Outer Space">Killer Klowns from Outter Space</option>
+        <option value="The Hills Have Eyes">The Hills Have Eyes</option>
+        <option value="Desperate Living">Desperate Living</option>
       </select>
-      <button type="submit" class="btn btn-success">Submit</button>
-    </div>
+
+      <select id="movieTimes" class = "form-control">
+        <option value="12">noon</option>
+        <option value="16">4pm</option>
+        <option value="17">5pm</option>
+        <option value="20">8pm</option>
+      </select>
+
+        <div class="input-group">
+        <div class="input-group-btn">
+        </div>
+      </div>
+        <label for="ageInput">Age</label>
+        <input type="number" class="form-control" id = "ageInput" min="9" max="116">
+
+        <button type="submit"class="btn btn-success">Submit</button>
+      </div>
     </form>
-  </div>
+    <h2 id = "YourTicket"></h2>
+    </div>
 </body>
 </html>
