@@ -10,21 +10,18 @@
   <title>Movie Tickets</title>
 </head>
 <body>
-  <div class="container">
-    <div class="movieList">
-  <button class="btn btn-default dropdown-toggle" type="button" id="movieListMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Movies
-    <span class="caret"></span>
-  </button>
-  <ul class="dropDownMovie" aria-labelledby="movieListMenu">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
-
+  <div>
+  <form id = "movieForm">
+    <div class="container">
+      <select id="movieList" class = "form-control">
+        <option id ="SpaceOdd" value="Space Oddity">Space Oddity</option>
+        <option id ="KillKlowOuterSp" value="Killer Klowns from Outer Space">Killer Klowns from Outter Space</option>
+        <option value="TheHills">The Hills Have Eyes</option>
+        <option id ="DesLiving" value="Desperate Living">Desperate Living</option>
+      </select>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+    </form>
   </div>
-  </body>
+</body>
 </html>
